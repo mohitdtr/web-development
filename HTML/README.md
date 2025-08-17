@@ -75,7 +75,117 @@ href="..."= link address
 <br>
 target="_blank" = opens in new tab
 
-# Tags Used in This Project
+# HTML Example :- Images, Tables & Lists
+1. Image Tag `<img>` :-
+   <br>
+ ``` html
+   <img height="230" src="image.png" alt="Train image">
+```
+`<img>` -> used to show an image
+<br>
+`src="image.png"` -> the location/name of the image file.
+<br>
+`height="230"` -> image height in pixels.
+<br>
+`alt="Train image"` -> text shown if the image is missing.
+
+2. Table
+```html
+<table>
+   ...
+</table>
+
+```
+`<table>` -> makes a table.
+<br>
+`<caption>` -> heading/title of the table
+<br>
+(a) Table Head `<thead>`:
+```html
+<thead>
+  <tr>
+    <th>Name</th>
+    <th>Designation</th>
+    <th>Fav Language</th>
+  </tr>
+</thead>
+```
+`<tr>` -> table row.
+<br>
+`<th>` -> table heading cell (bold & centered)
+<br>
+`<thead>` -> top/header part of the table
+
+(b) Table Body `<tbody>`:
+
+```html
+<tbody>
+  <tr>
+    <td>Harry</td>
+    <td>Programmer</td>
+    <td>JavaScript</td>
+  </tr>
+  <tr>
+    <td colspan="2">Sam</td>
+    <td rowspan="2">Java</td>
+  </tr>
+  <tr>
+    <td colspan="2">Sam</td>
+  </tr>
+</tbody>
+
+```
+`<td>` -> tablel data
+<br>
+`colspan="2"` -> merge 2 columns.
+<br>
+`rowspan="2"` -> merge 2 rows
+<br>
+`<tbody>` -> main content of the table.
+
+(c) Table Footer `<tfoot>` :
+```html
+<tfoot>
+  <tr>
+    <td colspan="2">Sam</td>
+    <td rowspan="2">foot</td>
+  </tr>
+</tfoot>
+
+```
+`<tfoot>` -> bottom/footer part of the table.
+
+3. Unordered List `<ul>`:
+ ```html
+<ul type="square">
+  <li>Harry</li>
+  <li>Rohan</li>
+  <li>Shubham</li>
+</ul>
+
+   ```
+`<ul>` -> unordered list (bullet points).
+<br>
+`type="square"` -> bullet shape (circle , square , disc).
+<br>
+`<li>` -> list item.
+
+4. Ordered List `<ol>`:
+```html
+<ol type="A">
+   <li>Harry</li>
+   <li>Rohan</li>
+   <li>Shubham</li>
+</ol>
+
+```
+`<ol>` -> ordered list (numbering or alphabets).
+<br>
+`type="A"` :- order style(1,A,a,l,i).
+<br>
+`li` :- list item.
+
+# Tags Used in This Course
 1. `<!DOCTYPE html>` -> Defines document type as HTML5
 2. `<html> `-> Root element of HTML page.
 3. `<head>` -> Information about the page (metadata , title, etc.).
@@ -93,6 +203,7 @@ target="_blank" = opens in new tab
     `href`-> link address
    <br>
     `target`-> where to open (new tab,same tab, etc.)
+
 
 
 
