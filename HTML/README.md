@@ -8,7 +8,7 @@ It Course shows how to use :
 This README.md explains the code step by step so that any beginner can understand.
 
 ## Files 
-<a target="_blank" href="index.html">index.html</a>-> Main HTML file
+<a target="_blank" href="/web-development/HTML/index.html">index.html</a>-> Main HTML file
 <br>
 **README.md**  -> Explanation of this project 
 <br>
