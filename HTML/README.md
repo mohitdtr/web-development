@@ -185,6 +185,101 @@ target="_blank" = opens in new tab
 <br>
 `li` :- list item.
 
+
+# Form HTML Code
+```html
+<form action="post"
+```
+Normally we write `method="post"` , but here only `action="post"` is written. (`action` usually means where the form will send data)
+
+```html
+<div>
+    <label for="username">Enter your Username</label>
+    <input type="text" id="username" name="username" placeholder="Enter your username" autofocus>
+</div>
+
+```
+`<div>` tag : Used to group HTML elements together and apply style or layout and It is a container used for grouping elements.
+<br>
+`<label>` : Text shown for input.
+<br>
+`for="username"` : Connects label with input box.
+<br>
+`<input type="text">` : Makes a text field.
+<br>
+`placeholder` : Shows light text inside box until user types.
+<br>
+`autofocus` : Cursor will directly come here when page loads.
+
+```html
+<div>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+</div>
+
+```
+
+This block makes gender selection using radio buttons.
+
+`type="radio"` : Lets user select only one option from group.
+<br>
+`name="gender"` : Same name means both are part of one group.
+<br>
+User can choose Male or Female.
+
+```html
+<div>
+    <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+    <label for="subscribe">Subscribe to newsletter</label>
+</div>
+
+```
+This block makes a checkbox.
+<ul>
+   <li>Checkbox lets user select Yes/No option.</li>
+   <li>Here it is for Subscribe to newsletter. </li>
+</ul>
+
+```html
+<div>
+    <label for="comment">Enter your comment</label>
+    <br>
+    <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+</div>
+
+```
+This block creates a textarea (milti-line box).
+`textarea` lets user write long text.
+<br>
+`rows="4"` : 4 line tall.
+<br>
+`cols="50"` : 50 characters wide.
+
+```html
+<div>
+    <select name="fruits">
+        <option value="apple">Apple</option>
+        <option value="banana">Banana</option>
+        <option value="cherry">Cherry</option>
+    </select>
+</div>
+
+```
+This block makes a dropdown menu.
+<br>
+`<select>` : Creates dropdown.
+<br>
+`<option>` : Each item iin dropdown (Apple,Banana,Cherry).
+<br>
+User can pick one fruit.
+
+```html
+</form>
+```
+This closes the form.
+
 # Tags Used in This Course
 1. `<!DOCTYPE html>` -> Defines document type as HTML5
 2. `<html> `-> Root element of HTML page.
@@ -203,6 +298,7 @@ target="_blank" = opens in new tab
     `href`-> link address
    <br>
     `target`-> where to open (new tab,same tab, etc.)
+
 
 
 
