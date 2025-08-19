@@ -2,8 +2,7 @@
 
 This is my first HTML Knowledge Course .
 <br>
-It Course shows how to use :
-1. **Headings (h1-h6)** , a **Paragraph** , and a **Link**.
+It Course shows how to use HTML Code in Website.
 
 This README.md explains the code step by step so that any beginner can understand.
 
@@ -18,76 +17,68 @@ This README.md explains the code step by step so that any beginner can understan
 ```html
 <!DOCTYPE html>
 ```
-Tells the browser this is an HTML5 document
+- Tells the browser this is an HTML5 document
 
 ```html
 <html lang="en">
 ```
-Root element of the page.
-<br>
-lang="en" means the language is English.
+- Root element of the page.
+- lang="en" means the language is English.
 
 ```html
 <head>
 ```
-Contains information about the page (not visible directly)
+- Contains information about the page (not visible directly)
 
 ```html
 <meta charset="UTF-8">
 ```
-Supports all characters (English,Hindi)
+- Supports all characters (English,Hindi)
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
-Makes the page mobile-friendly
-<br>
-Width = device width
-<br>
-Zoom  = 100% (no auto zoom)
+- Makes the page mobile-friendly
+- Width = device width
+- Zoom  = 100% (no auto zoom)
 
 ```html
 <title>Heading paragraph and links</title>
 ```
-Title of the page. Shown on the browser tab.
+- Title of the page. Shown on the browser tab.
 
 ```html
 <body>
 ```
-Contains all the visible content of the page.
+- Contains all the visible content of the page.
 
 ```html
 <h1> ... <h6>
 ```
-Headings from biggest (h1) to smallest (h6).
+- Headings from biggest (h1) to smallest (h6).
 
 ```html
 <p> ... </p>
 ```
-A paragraph for normal text.
+- A paragraph for normal text.
 
 ```html
 <a target="_blank" href="https://www.google.com/">Open Google</a>
 ```
-A link(anchor tag).
-<br>
-href="..."= link address
-<br>
-target="_blank" = opens in new tab
+- A link(anchor tag).
+  - `href="..."` -> link address.
+  - `target="_blank"` -> opens in new tab.
 
-# HTML Example :- Images, Tables & Lists
+# Images, Tables & Lists
 1. Image Tag `<img>` :-
    <br>
  ``` html
    <img height="230" src="image.png" alt="Train image">
 ```
-`<img>` -> used to show an image
-<br>
-`src="image.png"` -> the location/name of the image file.
-<br>
-`height="230"` -> image height in pixels.
-<br>
-`alt="Train image"` -> text shown if the image is missing.
+- `<img>` -> used to show an image
+- `src="image.png"` -> the location/name of the image file.
+- `height="230"` -> image height in pixels.
+- `alt="Train image"` -> text shown if the image is missing.
 
 2. Table
 ```html
@@ -96,11 +87,12 @@ target="_blank" = opens in new tab
 </table>
 
 ```
-`<table>` -> makes a table.
+- `<table>` -> makes a table.
+- `<caption>` -> heading/title of the table.
 <br>
-`<caption>` -> heading/title of the table
-<br>
+
 (a) Table Head `<thead>`:
+
 ```html
 <thead>
   <tr>
@@ -110,11 +102,9 @@ target="_blank" = opens in new tab
   </tr>
 </thead>
 ```
-`<tr>` -> table row.
-<br>
-`<th>` -> table heading cell (bold & centered)
-<br>
-`<thead>` -> top/header part of the table
+- `<tr>` -> table row.
+- `<th>` -> table heading cell (bold & centered).
+- `<thead>` -> top/header part of the table
 
 (b) Table Body `<tbody>`:
 
@@ -135,13 +125,10 @@ target="_blank" = opens in new tab
 </tbody>
 
 ```
-`<td>` -> tablel data
-<br>
-`colspan="2"` -> merge 2 columns.
-<br>
-`rowspan="2"` -> merge 2 rows
-<br>
-`<tbody>` -> main content of the table.
+- `<td>` -> tablel data.
+- `colspan="2"` -> merge 2 columns.
+- `rowspan="2"` -> merge 2 rows.
+- `<tbody>` -> main content of the table.
 
 (c) Table Footer `<tfoot>` :
 ```html
@@ -153,7 +140,7 @@ target="_blank" = opens in new tab
 </tfoot>
 
 ```
-`<tfoot>` -> bottom/footer part of the table.
+- `<tfoot>` -> bottom/footer part of the table.
 
 3. Unordered List `<ul>`:
  ```html
@@ -164,11 +151,9 @@ target="_blank" = opens in new tab
 </ul>
 
    ```
-`<ul>` -> unordered list (bullet points).
-<br>
-`type="square"` -> bullet shape (circle , square , disc).
-<br>
-`<li>` -> list item.
+- `<ul>` -> unordered list (bullet points).
+- `type="square"` -> bullet shape (circle , square , disc).
+- `<li>` -> list item.
 
 4. Ordered List `<ol>`:
 ```html
@@ -179,11 +164,9 @@ target="_blank" = opens in new tab
 </ol>
 
 ```
-`<ol>` -> ordered list (numbering or alphabets).
-<br>
-`type="A"` :- order style(1,A,a,l,i).
-<br>
-`li` :- list item.
+- `<ol>` -> ordered list (numbering or alphabets).
+- `type="A"` :- order style(1,A,a,l,i).
+- `li` :- list item.
 
 
 # Form HTML Code
@@ -199,17 +182,12 @@ Normally we write `method="post"` , but here only `action="post"` is written. (`
 </div>
 
 ```
-`<div>` tag : Used to group HTML elements together and apply style or layout and It is a container used for grouping elements.
-<br>
-`<label>` : Text shown for input.
-<br>
-`for="username"` : Connects label with input box.
-<br>
-`<input type="text">` : Makes a text field.
-<br>
-`placeholder` : Shows light text inside box until user types.
-<br>
-`autofocus` : Cursor will directly come here when page loads.
+- `<div>` tag : Used to group HTML elements together and apply style or layout and It is a container used for grouping elements.
+- `<label>` : Text shown for input.
+- `for="username"` : Connects label with input box.
+- `<input type="text">` : Makes a text field.
+- `placeholder` : Shows light text inside box until user types.
+- `autofocus` : Cursor will directly come here when page loads.
 
 ```html
 <div>
@@ -223,11 +201,9 @@ Normally we write `method="post"` , but here only `action="post"` is written. (`
 
 This block makes gender selection using radio buttons.
 
-`type="radio"` : Lets user select only one option from group.
-<br>
-`name="gender"` : Same name means both are part of one group.
-<br>
-User can choose Male or Female.
+- `type="radio"` : Lets user select only one option from group.
+- `name="gender"` : Same name means both are part of one group.
+- User can choose Male or Female.
 
 ```html
 <div>
@@ -251,11 +227,9 @@ This block makes a checkbox.
 
 ```
 This block creates a textarea (milti-line box).
-`textarea` lets user write long text.
-<br>
-`rows="4"` : 4 line tall.
-<br>
-`cols="50"` : 50 characters wide.
+- `textarea` lets user write long text.
+- `rows="4"` : 4 line tall.
+- `cols="50"` : 50 characters wide.
 
 ```html
 <div>
@@ -268,17 +242,115 @@ This block creates a textarea (milti-line box).
 
 ```
 This block makes a dropdown menu.
-<br>
-`<select>` : Creates dropdown.
-<br>
-`<option>` : Each item iin dropdown (Apple,Banana,Cherry).
-<br>
-User can pick one fruit.
+- `<select>` : Creates dropdown.
+- `<option>` : Each item iin dropdown (Apple,Banana,Cherry).
+- User can pick one fruit.
 
 ```html
 </form>
 ```
-This closes the form.
+- This closes the form.
+
+# ID & Class
+```html
+ <div id="firstdiv" class="red bg-yellow">First</div>
+    <div id="seconddiv">Second</div>
+    <span class="red"></span>
+```
+- `id` attribute : Used to give a unique name to an element.
+- `class` attribute : Used to group elememts for styling with CSS.
+- `<span>` tag : An inline container, used for styling or marking part of text / content inside a line.
+
+# Video , audio and media
+```html
+<video src="video.mp4" height="255" controls loop muted poster="download.jpg"></video>
+```
+- `<video>` tag : Used to show a video on the webpage.
+<h2>Attributes : </h2>
+
+- `src` -> video file location.
+- `height` -> video height.
+- `controls` -> shows play/pause buttons.
+- `loop` -> repeats video automatically.
+- `muted` -> plays without sound.
+- `poster` -> image shown before video plays.
+
+```html
+<audio src="sachin.mp3" controls autoplay loop muted></audio>
+```
+`<audio>` tag : Used to play audio/music on the webpage
+<br>
+<h2>Attributes : </h2>
+
+- `src` -> audio file location.
+- `controls` -> shows audio player.
+- `autoplay` -> starts playing automatically.
+- `loop` -> repeats audio.
+- `muted` -> plays without sound.
+
+```html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tVzUXW6siu0?start=739" allowfullscreen></iframe>
+
+```
+- `<iframe>` tag : Used to embed another webpage or video. 
+<br>
+<h2>Attributes : </h2>
+
+- `src` -> URL  of page/video.
+- `width` & `height` -> size of frame.
+- `allowfullscreen` -> allws full screen
+
+
+# Semantic Tags
+Semantic tags are those HTML tags that clearly describe their meaning to both the browser and the developer.
+<br>
+They make the code easier to read and improve SEO (Search Engine Optimization).
+
+```html
+<header>
+  <h1>My Website</h1>
+</header>
+
+<nav>
+  <ul>
+    <li>Home</li>
+    <li>Blog</li>
+    <li>Contact</li>
+  </ul>
+</nav>
+
+<main>
+  <article>
+    <h2>About Semantic Tags</h2>
+    <p>Semantic tags provide meaning to the content.</p>
+  </article>
+</main>
+
+<footer>
+  © 2025 My Website
+</footer>
+```
+
+<h2>Common Semantic Tags : </h2>
+
+- `<header>` → Defines the top section of a page (like logo, title, or navigation).  
+- `<nav>` → Defines a navigation section (menu or links).  
+- `<main>` → Represents the main content area of the page.  
+- `<section>` → Defines a specific section of content (like a chapter or topic).  
+- `<article>` → Represents an independent piece of content (like a blog post, news article).  
+- `<aside>` → Defines side content (like a sidebar, ads, or related links).  
+- `<footer>` → Defines the bottom section (like copyright, contact info).  
+- `<figure>` → Used for self-contained media (images, diagrams).  
+- `<figcaption>` → Caption for `<figure>`.  
+- `<mark>` → Highlights text.  
+- `<time>` → Represents a date or time. 
+
+
+
+
+
+
+
 
 # Tags Used in This Course
 1. `<!DOCTYPE html>` -> Defines document type as HTML5
@@ -298,6 +370,7 @@ This closes the form.
     `href`-> link address
    <br>
     `target`-> where to open (new tab,same tab, etc.)
+
 
 
 
