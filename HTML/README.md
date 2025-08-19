@@ -38,8 +38,10 @@ It provides the basic **structure of a website**, which is then enhanced and sty
 ### Example:
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First HTML Page</title>
 </head>
 <body>
@@ -47,12 +49,11 @@ It provides the basic **structure of a website**, which is then enhanced and sty
     <p>This is my first HTML page.</p>
 </body>
 </html>
+```
 
 
 
 
-## Code Explanation (Line by Line)
-<!DOCTYPE html>
 
 ```html
 <!DOCTYPE html>
@@ -92,15 +93,34 @@ It provides the basic **structure of a website**, which is then enhanced and sty
 ```
 - Contains all the visible content of the page.
 
+## Headings & Paragraphs
+HTML provides **6 levels of headings**:  
 ```html
-<h1> ... <h6>
+<h1> This is heading 1 </h1>
+<h2> This is heading 2 </h2>
+<h3> This is heading 3 </h3>
+<h4> This is heading 4 </h4>
+<h5> This is heading 5 </h5>
+<h6> This is heading 6 </h6>
+
 ```
-- Headings from biggest (h1) to smallest (h6).
+- `<h1>` → Main heading (most important, only one per page recommended)  
+- `<h2>` → Sub-heading  
+- `<h3>` → Sub-sub-heading  
+- `<h4>` → Smaller heading  
+- `<h5>` → Even smaller heading  
+- `<h6>` → The least important heading 
 
 ```html
 <p> ... </p>
 ```
 - A paragraph for normal text.
+
+## Links
+Links are used to **move from one page to another page** or to connect external websites.  
+In HTML, links are created using the **anchor tag `<a>`**.
+<br>
+<h4>Anchor Tag </h4>
 
 ```html
 <a target="_blank" href="https://www.google.com/">Open Google</a>
@@ -109,7 +129,7 @@ It provides the basic **structure of a website**, which is then enhanced and sty
   - `href="..."` -> link address.
   - `target="_blank"` -> opens in new tab.
 
-# Images, Tables & Lists
+## Images
 1. Image Tag `<img>` :-
    <br>
  ``` html
@@ -120,7 +140,7 @@ It provides the basic **structure of a website**, which is then enhanced and sty
 - `height="230"` -> image height in pixels.
 - `alt="Train image"` -> text shown if the image is missing.
 
-2. Table
+## Tables
 ```html
 <table>
    ...
@@ -182,7 +202,8 @@ It provides the basic **structure of a website**, which is then enhanced and sty
 ```
 - `<tfoot>` -> bottom/footer part of the table.
 
-3. Unordered List `<ul>`:
+## Lists
+Unordered List `<ul>`:
  ```html
 <ul type="square">
   <li>Harry</li>
@@ -195,7 +216,7 @@ It provides the basic **structure of a website**, which is then enhanced and sty
 - `type="square"` -> bullet shape (circle , square , disc).
 - `<li>` -> list item.
 
-4. Ordered List `<ol>`:
+Ordered List `<ol>`:
 ```html
 <ol type="A">
    <li>Harry</li>
@@ -209,7 +230,7 @@ It provides the basic **structure of a website**, which is then enhanced and sty
 - `li` :- list item.
 
 
-# Form HTML Code
+## Forms
 ```html
 <form action="post"
 ```
@@ -301,7 +322,7 @@ This block makes a dropdown menu.
 - `class` attribute : Used to group elememts for styling with CSS.
 - `<span>` tag : An inline container, used for styling or marking part of text / content inside a line.
 
-# Video , audio and media
+## Media
 ```html
 <video src="video.mp4" height="255" controls loop muted poster="download.jpg"></video>
 ```
@@ -341,7 +362,7 @@ This block makes a dropdown menu.
 - `allowfullscreen` -> allws full screen
 
 
-# Semantic Tags
+## Semantic Tags
 Semantic tags are those HTML tags that clearly describe their meaning to both the browser and the developer.
 <br>
 They make the code easier to read and improve SEO (Search Engine Optimization).
@@ -397,19 +418,16 @@ They make the code easier to read and improve SEO (Search Engine Optimization).
 2. `<html> `-> Root element of HTML page.
 3. `<head>` -> Information about the page (metadata , title, etc.).
 4. `<meta>` -> Extra information:
-   <br>
-   `charset="UTF-8"`-> character encoding
-   <br>
-   `viewport`-> responsive design
+   - `charset="UTF-8"`-> character encoding
+   - `viewport`-> responsive design
 5. `<title>`-> Page title (shown in tab)
 6. `<body>`-> All visible content
 7. `<h1> to <h6>`-> Headings, from largest to smallest
 8. `<p>`-> Paragraph text.
 9. `<a>`-> Anchor tag (link).Attributes:
-   <br>
-    `href`-> link address
-   <br>
-    `target`-> where to open (new tab,same tab, etc.)
+    - `href`-> link address
+    - `target`-> where to open (new tab,same tab, etc.)
+
 
 
 
