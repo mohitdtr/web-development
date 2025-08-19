@@ -12,31 +12,41 @@ This README.md explains the code step by step so that any beginner can understan
 **README.md**  -> Explanation of this project 
 <br>
 
-
-# HTML Notes
-
 ## 📑 Table of Contents
 - [Introduction](#introduction)
-- [Form Tags](#form-tags)
-- [Div, Id, Class, Span](#div-id-class-span)
-- [Textarea](#textarea)
-- [Media Tags](#media-tags)
+- [Headings & Paragraphs](#headings--paragraphs)
+- [Links](#links)
+- [Images](#images)
+- [Tables](#tables)
+- [Lists](#lists)
+- [Forms](#forms)
+- [ID & Class](#id--class)
+- [Media](#media)
 - [Semantic Tags](#semantic-tags)
+- [Tags Used in this Course](#tags-used-in-this-course)
 
----
 
 ## Introduction
-HTML (HyperText Markup Language) is the standard markup language for creating web pages.
 
----
+HTML (HyperText Markup Language) is the **standard markup language** used to create web pages.  
+It provides the basic **structure of a website**, which is then enhanced and styled by CSS and made interactive by JavaScript.  
 
-## Form Tags
+- HTML uses **tags (elements)** to define different parts of a webpage.  
+- These tags tell the browser **how to display content** like text, images, links, forms, and media.  
+- HTML is not a programming language, but a **markup language** that organizes and presents content on the web.  
+
+### Example:
 ```html
-<form action="post">
-    <input type="text" placeholder="Enter name">
-    <input type="submit" value="Submit">
-</form>
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First HTML Page</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>This is my first HTML page.</p>
+</body>
+</html>
 
 
 
@@ -400,6 +410,7 @@ They make the code easier to read and improve SEO (Search Engine Optimization).
     `href`-> link address
    <br>
     `target`-> where to open (new tab,same tab, etc.)
+
 
 
 
