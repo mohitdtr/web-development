@@ -11,6 +11,36 @@ This README.md explains the code step by step so that any beginner can understan
 <br>
 **README.md**  -> Explanation of this project 
 <br>
+
+
+# HTML Notes
+
+## 📑 Table of Contents
+- [Introduction](#introduction)
+- [Form Tags](#form-tags)
+- [Div, Id, Class, Span](#div-id-class-span)
+- [Textarea](#textarea)
+- [Media Tags](#media-tags)
+- [Semantic Tags](#semantic-tags)
+
+---
+
+## Introduction
+HTML (HyperText Markup Language) is the standard markup language for creating web pages.
+
+---
+
+## Form Tags
+```html
+<form action="post">
+    <input type="text" placeholder="Enter name">
+    <input type="submit" value="Submit">
+</form>
+
+
+
+
+
 ## Code Explanation (Line by Line)
 <!DOCTYPE html>
 
@@ -370,6 +400,7 @@ They make the code easier to read and improve SEO (Search Engine Optimization).
     `href`-> link address
    <br>
     `target`-> where to open (new tab,same tab, etc.)
+
 
 
 
