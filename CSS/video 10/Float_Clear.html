@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Floats & Clear</title>
+    <style>
+        .cards{
+            border: 2px solid black;
+            display: flow-root;
+        }
+
+        img{
+            float: left;
+        }
+
+        .card{
+            border:2px solid red;
+            
+        }
+        
+
+        .card:nth-child(3){
+            background-color: aqua;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+        <img src="https://media.istockphoto.com/id/928826678/photo/two-men-relaxing-and-fishing.jpg?s=2048x2048&w=is&k=20&c=fSG5LG9kxLNzjG9_YI1bXdz3-gD7UW2e2bd9arD5Vm8=" alt="" width="230">
+
+        <div>
+            <p class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis officiis minus necessitatibus. Iste doloribus tenetur, magni ad qui facilis quibusdam eligendi nam nobis vitae laborum autem sequi fuga id inventore non, magnam eius asperiores accusantium esse natus consequatur libero sint? Quidem repellat repudiandae voluptates odit.</p>
+        </div>
+        <div class=" card">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, harum ducimus! Reiciendis, soluta magni eligendi autem cum quod libero veniam repellat sapiente totam iste ducimus.</div>
+        <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid cumque, magni vitae delectus quos voluptate.</div>
+    </div>
+</body>
+</html>
